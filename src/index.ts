@@ -4,12 +4,7 @@ import "dotenv/config";
 
 // Define the client and its intents
 const client = new Client({
-  intents: [
-    IntentsBitField.Flags.Guilds,
-    IntentsBitField.Flags.GuildMembers,
-    IntentsBitField.Flags.DirectMessages,
-    IntentsBitField.Flags.MessageContent,
-  ],
+  intents: [IntentsBitField.Flags.Guilds],
 });
 
 // Load the events
