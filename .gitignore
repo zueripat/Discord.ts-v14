@@ -131,3 +131,6 @@ dist
 *.iml
 *.ipr
 *.iws
+
+# Configuration files for Node.js projects
+package-lock.json
